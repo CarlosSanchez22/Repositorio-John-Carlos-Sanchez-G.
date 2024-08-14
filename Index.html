@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+        <style type="text/css"> 
+        canvas{
+            background-color: rgba(211, 24, 24, 0.719);
+        }
+        </style>
+
+    </head>
+<body>
+
+    <canvas id="my_canvas" width="500" height="500">
+    </canvas>
+    <script type="text/javascript">
+        const my_canvas = document.getElementById("my_canvas");
+        const ctx = my_canvas.getContext('2d');
+
+        ctx.fillStyle="red"
+        ctx.fillRect(100,100,100,100)
+        ctx.fillStyle="#4567e8"
+        ctx.fillRect(180,180,100,100)
+        ctx.fillStyle="rgba(173, 231, 119, 0.5)"
+        ctx.fillRect(260,260,100,100,)
+    </script>
+
+</body>
+</html>
